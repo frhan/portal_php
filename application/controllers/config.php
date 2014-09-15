@@ -1,0 +1,10 @@
+<?php
+
+$config = array(
+	'username' => 'farhan',
+	'password' => '123456',
+	'dbname'   => 'portal',
+	//'cn' 	   => sprintf('mongodb://%s:%d/%s', $hosts, $port,$database),
+	'connection_string'=> sprintf('mongodb://%s:%d/%s','127.0.0.1','27017','portal')
+);
+?>

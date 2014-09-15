@@ -1,0 +1,39 @@
+
+<?php 
+$this->load->view('header');
+?>
+<?php
+
+?>
+<div id="container">
+	<div class="full-row">
+		<h3>File Access Portal</h3>
+	</div>
+	<div class="full-row">
+		<div class="file-menu">
+			<a href="#">Upload File</a>
+		</div>
+		<div class="file-menu">
+			<a href="#">Upload Data File</a>
+		</div>
+		<div class="file-menu">
+			<a href="#">View</a>
+		</div>
+
+	</div>
+
+	<div class="full-row mt30">
+		<form name="file-upload" method="post"  action="<?php echo base_url();?>index.php/user/get_file_data" enctype="multipart/form-data">
+			<input type="file" name="file" /> 
+			<input type="submit" name="upload" value="Upload" />
+		</form>
+	</div>
+
+
+</div>
+
+
+<?php 
+$this->load->view('footer');
+?>
+
