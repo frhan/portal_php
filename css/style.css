@@ -14,6 +14,8 @@
 		color: #003399;
 		background-color: transparent;
 		font-weight: normal;
+		text-decoration: none;
+		font-size: 18px;
 	}
 
 	h1 {
@@ -136,5 +138,9 @@
 
 	.textLayer .highlight.selected {
 	    background-color: rgba(0, 100, 0, 0.2);
+	}
+
+	.link-active {
+		background-color: gray;
 	}
 

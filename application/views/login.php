@@ -23,7 +23,7 @@ $this->load->view('header');
 				</tr>
 				<tr>
 				    <td>Password</td>
-				    <td><input type="Text" name="password" size="35" maxlength="50"></td>
+				    <td><input type="password" name="password" size="35" maxlength="50"></td>
 				</tr>
 				<tr>
 				    <td>&nbsp;</td>

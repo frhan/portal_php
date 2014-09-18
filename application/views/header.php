@@ -7,5 +7,6 @@
 	<script type="text/javascript" src="<?php echo base_url();?>js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/pdf.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/textlayerbuilder.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>js/make_buttons_gray.js"></script>
 </head>
 <body>
